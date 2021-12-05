@@ -24,7 +24,7 @@ li {
 }
 
 .default{
-    width: 5em;
+    width: 6.5rem;
 }
 
 h1{
@@ -110,7 +110,7 @@ span{
     margin: 1em;
     padding: .5em 1em;
     border-radius: 1em;
-    opacity: 0.95;
+    opacity: 0.85;
     text-align: center;
 }
 
@@ -121,7 +121,6 @@ span{
     margin: auto;
     padding: auto;
     border-radius: 1em;
-    opacity: 0.95;
     width: 25em;
 }
 
@@ -222,14 +221,22 @@ span{
     padding: 2rem 0;
 }
 
+
+
+/* About Page CSS */
+.about_text{
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 2rem;
+}
+
 .about_footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
     background-color: var(--navBar-color);
     color: #f2f2f2;
     text-align: center;
-    padding: 2rem 0;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
 }
-
-
