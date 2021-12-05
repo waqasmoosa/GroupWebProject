@@ -41,7 +41,7 @@
              function setFourSide( dieImg ) // set src 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 4 );
-                dieImg.setAttribute( "src", "d4(" + dieValue + ").png" );
+                dieImg.setAttribute( "src", "Assest/d4(" + dieValue + ").png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
@@ -51,7 +51,7 @@
              function setSixSide( dieImg ) 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 6 );
-                dieImg.setAttribute( "src", "d6(" + dieValue + ").png" );
+                dieImg.setAttribute( "src", "Assest/d6(" + dieValue + ").png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
@@ -61,7 +61,7 @@
              function setEightSide( dieImg ) 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 8 );
-                dieImg.setAttribute( "src", "d8(" + dieValue + ").png" );
+                dieImg.setAttribute( "src", "Assest/d8(" + dieValue + ").png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
@@ -71,7 +71,7 @@
              function setTenSide( dieImg ) 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 10 );
-                dieImg.setAttribute( "src", "d10(" + dieValue + ").png" );
+                dieImg.setAttribute( "src", "Assest/d10(" + dieValue + ").png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
@@ -81,7 +81,7 @@
              function setTwelveSide( dieImg ) 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 12 );
-                dieImg.setAttribute( "src", "pentdice" + dieValue + ".png" );
+                dieImg.setAttribute( "src", "Assest/pentdice" + dieValue + ".png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
@@ -91,7 +91,7 @@
              function setTwentySide( dieImg ) 
              {
                 var dieValue = Math.floor( 1 + Math.random() * 20 );
-                dieImg.setAttribute( "src", "hexadice" + dieValue + ".png" );
+                dieImg.setAttribute( "src", "Assest/hexadice" + dieValue + ".png" );
                 dieImg.setAttribute( "alt", 
                    "die image with " + dieValue + " spot(s)" );
              }
