@@ -1,0 +1,234 @@
+
+/*
+    Basic
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+
+:root{
+    --primary-color: green ;
+    --background-color: #082032;
+    --navBar-color:#334756;
+}
+
+body{
+    min-width: 800px;
+    background: var(--background-color);
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+li { 
+    list-style: none;
+}
+
+.default{
+    width: 5em;
+}
+
+h1{
+    text-align: center;
+    color: var(--primary-color);
+    -webkit-text-stroke-width: .25px;
+    -webkit-text-stroke-color: greenyellow;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/*************************
+    Navigation CSS
+*************************/
+
+.navBar{
+    background: var(--navBar-color);
+    padding: 1em 3em;
+    display: grid;
+}
+
+.container{
+    grid-template-columns: 180px auto;
+    justify-content: unset;
+    display: flex;
+}
+
+.navBar nav{
+    display: flex;
+    justify-content: space-between;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+}
+
+.primaryNav{
+    display: flex;
+    margin: 0;
+    margin-top: .5em;
+}
+
+.secondaryNav{
+    display: flex;
+    margin: 0;
+    margin-top: .5em;
+}
+
+li.current{
+    font-weight: bold;
+}
+
+a{
+    color: #f2f2f2;
+    font-size: 1em;
+    padding: .1em 1em;
+    text-decoration: none;
+}
+
+.logo{ 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: black;
+    background-color: #f4f4f4;
+    border-radius: .5em;
+}
+
+span{
+    color: var(--primary-color);
+}
+
+/*************************
+    Dice Sections
+*************************/
+.description{
+    background:#f2f2f2;
+    margin: 1em;
+    padding: .5em 1em;
+    border-radius: 1em;
+    opacity: 0.95;
+    text-align: center;
+}
+
+.dice_roll{
+    display: flex;
+    justify-content: space-evenly;
+    background: #f2f2f2;
+    margin: auto;
+    padding: auto;
+    border-radius: 1em;
+    opacity: 0.95;
+    width: 25em;
+}
+
+.button{
+    padding-top: 3em;
+}
+
+
+
+.sec_one{
+
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 1rem;
+    margin-top: 4rem;
+}
+
+.four {
+    opacity: 0.95;
+    background-image: url("Assest/bg1.jpg");
+    background-size: cover;
+    margin-left: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+
+.six{
+    opacity: 0.95;
+    background-image: url("Assest/bg2.jpg");
+    background-size: cover;
+    margin-right: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+
+
+.sec_two{
+
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 1rem;
+    margin-top: 4rem;
+}
+
+.eight{
+    opacity: 0.95;
+    background-image: url("Assest/bg3.jpg");
+    background-size: cover;
+    margin-left: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+.ten{
+    opacity: 0.95;
+    background-image: url("Assest/bg4.jpg");
+    background-size: cover;
+    margin-right: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+
+
+.sec_three{
+    display: flex;
+    justify-content:space-evenly;
+    padding-left: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.twelve{
+    opacity: 0.95;
+    background-image: url("Assest/bg5.jpg");
+    background-size: cover;
+    margin-left: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+.twenty{
+    opacity: 0.95;
+    background-image: url("Assest/bg6.jpg");
+    background-size: cover;
+    margin-right: 4em;
+    padding: 1em 4em;
+    border-radius: 1em;
+    width: 33rem;
+}
+
+.footer{
+    background-color: var(--navBar-color);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.about_footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--navBar-color);
+    color: #f2f2f2;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+
